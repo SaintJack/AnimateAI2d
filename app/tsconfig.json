@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "module": "esnext",
+    "lib": ["ES2023", "DOM"],
+    "types": ["vite/client"],
+    "skipLibCheck": true,
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "pixi.js": ["node_modules/.pixi.js-bHElfxyP"],
+      "gsap": ["node_modules/.gsap-P8aBvMdW"],
+      "@esotericsoftware/spine-pixi-v8": ["node_modules/@esotericsoftware/.spine-pixi-v8-Hjj84wBp"],
+      "@esotericsoftware/spine-core": ["node_modules/@esotericsoftware/.spine-core-Zl814M8G"],
+      "@esotericsoftware/spine-canvas": ["node_modules/@esotericsoftware/.spine-canvas-pfxfQXby"]
+    },
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
